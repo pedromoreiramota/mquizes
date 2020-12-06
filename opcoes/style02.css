@@ -1,0 +1,80 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #000000;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#a{
+  text-decoration: none;
+}
+
+.btn-abrir img{
+  width: 140px;
+  color: #000;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.btn-fechar img{
+  width: 80px;
+}
+
+#menu{
+  font-family: sans-serif;
+  height: 100%;
+  width: 0px;
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+#menu #a{
+  color: #000;
+  font-size: 35px;
+  display: block;
+  padding: 12px 10px 12px 32px;
+}
+
+#menu #a:hover{
+  color: rgba(21,4,98);
+  background-color: #FFF;
+}
+
+/*TÓPICOS*/
+.topicos{
+  background-color: #FFFFFF;
+  padding: 35px;
+  width: 370px;
+  border-radius: 8px;
+  font-size: 35px;
+  position: absolute;
+  left: 30%;
+}
+
+#lista-topicos{
+  list-style-type: none;
+  padding: 0;
+}
+
+#lista-topicos a{
+  text-decoration: none;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+#lista-topicos li{
+  border-bottom: 2px solid #ddd;
+  padding: 8px 16px;
+}
+
+h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
