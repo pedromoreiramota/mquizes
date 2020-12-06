@@ -1,0 +1,80 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #000000;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn-abrir img{
+  width: 140px;
+  color: #000;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.btn-fechar img{
+  width: 80px;
+}
+
+nav{
+  font-family: sans-serif;
+  height: 100%;
+  width: 0px;
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+nav a{
+  color: #000;
+  font-size: 35px;
+  display: block;
+  padding: 12px 10px 12px 32px;
+}
+
+nav a:hover{
+  color: rgba(21,4,98);
+  background-color: #FFF;
+}
+
+.comeco{
+  margin-top: 90px;
+  color: #6C28C2DE;
+  font-size: 7vw;
+  font-family: 'Fredoka One', cursive;
+  margin-left: 120px;
+}
+
+.tutorial{
+  font-size: 2.5vw;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  margin-left: 120px;
+}
+
+/*
+.quiz_img{
+  margin-left: 80px;
+  margin-top: 100px;
+  width: 400px;
+  padding: 0px;
+}*/
+
+/*DISCORD*/
+.discord{
+  border-radius: 10px;
+}
+.btn-discord{
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
